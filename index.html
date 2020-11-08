@@ -1,0 +1,76 @@
+<html>
+<head>
+    <title>Story Builder</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+
+</head>
+<body>
+
+    <div id="header">
+        <h1>Story Builder</h1>
+
+        <p>As you can see there are two colunms with an identical format. The one on the right is team 2, and the one on the left is team 1. This is a game of 2-12 players, the number of players should be even. Now let me tell you the rules, Divide the players into two teams.Then divide the input boxes among the players. Then each player enters a sentence into their input box(es). Continue this and when all the input boxes are full, click on submit. The paragraph will appear. Then choose who wins from their paragraph. Enjoy! </p>
+    </div>
+
+    <div class="row">
+<div id="team_1">
+    <input type="text" id="team1_1" class="text">
+    <br>
+    <br>
+    <input type="text" id="team1_2" class="text">
+    <br>
+    <br>
+    <input type="text" id="team1_3" class="text">
+    <br>
+    <br>
+    <input type="text" id="team1_4" class="text">
+    <br>
+    <br>
+    <input type="text" id="team1_5" class="text">
+    <br>
+    <br>
+    <input type="text" id="team1_6" class="text">
+    <br>
+    <br> 
+    <button type="button" id="team1_submit" onclick="submit1()" class="button">Submit</button>
+        <br>
+        <br>
+</div>
+
+
+<div id="team_2">
+    <input type="text" id="team2_1" class="text">
+    <br>
+    <br>
+    <input type="text" id="team2_2" class="text">
+    <br>
+    <br>
+    <input type="text" id="team2_3" class="text">
+    <br>
+    <br>
+    <input type="text" id="team2_4" class="text">
+    <br>
+    <br>
+    <input type="text" id="team2_5" class="text">
+    <br>
+    <br>
+    <input type="text" id="team2_6" class="text">
+    <br>
+    <br> 
+    <button type="button" id="team2_submit" onclick="submit2()" class="button">Submit</button>
+        <br>
+        <br>
+</div>
+
+</div>
+
+<div id="team_1_output" class="output"></div>
+
+<br>
+<br>
+
+<div id="team_2_output" class="output"></div>
+
+</body>
+</html>

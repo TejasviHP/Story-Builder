@@ -1,0 +1,56 @@
+body{
+    background-color:#8075FF;
+
+}
+
+#header{
+    margin-left:10px ;
+   background-color: deeppink;
+    text-align: center;
+}
+
+
+.text{
+    background-color:crimson;
+    border-color: midnightblue;
+    border-width: 5px;
+    height: 30px;
+}
+
+#team_1{
+    margin: 100px;
+    
+}
+#team_2{
+    margin: 100px;
+}
+
+
+.row {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.button{
+    margin-left:50px;
+    background-color:#1098F7;
+    height: 30px;
+    width: 70px;
+    border-radius: 20px;
+}
+
+#team2_submit{
+    margin-left:50px;
+    background-color:#1098F7;
+    height: 30px;
+    width: 70px;
+    border-radius: 20px;   
+}
+
+.output{
+    background-color: #75DDDD;
+    border-radius: 20px;
+}
+
+
